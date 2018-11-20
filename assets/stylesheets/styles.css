@@ -26,6 +26,7 @@
 	background-color: mediumaquamarine;
 	box-sizing:border-box;
 	overflow: auto;
+	padding-right: 25px;
 }
 
 .restaurants img {
@@ -41,6 +42,7 @@
 	background-color: turquoise;
 	box-sizing:border-box;
 	overflow: auto;
+	padding-left: 25px;
 }
 
 .thingstodo img {
@@ -55,24 +57,25 @@
 	background-color: steelblue;
 	box-sizing:border-box;
 	overflow: auto;
+	padding-right: 25px;
 }
 
 .localcities img {
 	height: 290px;
 	float:left;
 	overflow: auto;
-	margin-right: 20px;
+	margin-right: 30px;
 }
 
 
 .subtitle-left {
   font-family: 'Arial Black', Gadget, sans-serif;
   text-align: left;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .subtitle-right {
   font-family: 'Arial Black', Gadget, sans-serif;
   text-align: right;
-  font-size: 50px;
+  font-size: 30px;
 }
