@@ -19,25 +19,37 @@
 
 
 .restaurants img {
-	width: 25%;
-	display:inline-block;
+	width: 15%;
 	float:left;
+	overflow: auto;
+}
+
+.restaurants {
+	height: 150px;
+	width: 100%;
+	background-color: mediumaquamarine;
 }
 
 .thingstodo img {
-	width: 25%;
+	width: 15%;
 	display:inline-block;
 	float:right;
 }
 
 .localcities img {
-	width: 25%;
+	width: 15%;
 	display:inline-block;
 	float:left;
 }
 
-.subtitle {
+.subtitle-left {
   font-family: 'Arial Black', Gadget, sans-serif;
-  text-align: center;
+  text-align: left;
+  font-size: 50px;
+}
+
+.subtitle-right {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  text-align: right;
   font-size: 50px;
 }
