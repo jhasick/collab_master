@@ -1,5 +1,8 @@
 .toppanel {
-	height: 150px;
+	background-image: url("../images/raleigh.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
 	width: 100%;
 	background-color: darkcyan;
 }
@@ -9,39 +12,56 @@
   color: white;
   text-align: center;
   text-transform: uppercase;
-  font-size: 75px;
-  font-weight: 400;
+  font-size: 110px;
+  font-weight: 550;
   letter-spacing: -3px;
-  line-height: 1;
-  text-shadow: navy 3px 2px 0;
+  text-shadow: navy 4px 3px 0;
   position: relative;
+  padding-top: 150px;
 }
 
-
-.restaurants img {
-	width: 10%;
-	float:left;
-	overflow: auto;
-	padding-right:20px;
-}
 
 .restaurants {
-	height: 150px;
 	width: 100%;
 	background-color: mediumaquamarine;
+	box-sizing:border-box;
+	overflow: auto;
+}
+
+.restaurants img {
+	height: 290px;
+	float:left;
+	overflow: auto;
+	margin-right: 20px;
+}
+
+
+.thingstodo {
+	width: 100%;
+	background-color: turquoise;
+	box-sizing:border-box;
+	overflow: auto;
 }
 
 .thingstodo img {
-	width: 15%;
+	height: 290px;
 	float:right;
-	padding-left:20px;
+	overflow: auto;
+	margin-left:20px;
+}
+
+.localcities {
+	width: 100%;
+	background-color: steelblue;
+	box-sizing:border-box;
+	overflow: auto;
 }
 
 .localcities img {
-	width: 15%;
+	height: 290px;
 	float:left;
 	overflow: auto;
-	padding-right:20px;
+	margin-right: 20px;
 }
 
 
